@@ -1,0 +1,127 @@
+/* General */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container1 {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+
+  align-content: space-between;
+}
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Navbar */
+.navbar {
+  background: #0b1e3e;
+  color: #fff;
+  padding: 1rem 0;
+}
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar nav {
+  float: right;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+.nav-links a:hover {
+  color: #facc15;
+}
+
+/* Hero */
+.hero {
+  background: url("school-background.jpeg") no-repeat center center/cover;
+  height: 60vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  color: #fff;
+  text-align: center;
+}
+.hero h2 {
+  font-size: 2.5rem;
+}
+.btn {
+  background: #facc15;
+  color: #000;
+  padding: 0.7rem 1.5rem;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 1rem;
+}
+.btn:hover {
+  background: #eab308;
+}
+.btn-outline {
+  border: 2px solid #fff;
+  color: #fff;
+  background: transparent;
+}
+.btn-outline:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* Sections */
+.section {
+  padding: 4rem 0;
+  text-align: center;
+}
+.section h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.light-bg {
+  background: #f9f9f9;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 2rem;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Footer */
+.footer {
+  background: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 1rem 0;
+}
